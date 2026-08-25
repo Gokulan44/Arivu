@@ -1,0 +1,22 @@
+{
+  "labId": "convex_lens",
+  "labName": "Convex Lens Lab",
+  "difficulty": "Beginner",
+  "objectives": [
+    {
+      "id": "obj_place_components",
+      "description": "Arrange the light source, convex lens, and screen on the optical bench scale."
+    },
+    {
+      "id": "obj_find_focus",
+      "description": "Adjust the distances of the object and screen from the lens to find a clear, sharp real image."
+    },
+    {
+      "id": "obj_calculate_focal_length",
+      "description": "Verify the focal length of the convex lens using the lens formula (target f = 20 cm)."
+    }
+  ],
+  "parameters": {
+    "focalLengthF": 20.0
+  }
+}

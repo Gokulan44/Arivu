@@ -1,0 +1,19 @@
+{
+  "labId": "arduino_temperature",
+  "labName": "Arduino Temperature Sensor Lab",
+  "difficulty": "Intermediate",
+  "objectives": [
+    {
+      "id": "obj_sensor_circuit",
+      "description": "Connect the LM35 temp sensor's VCC to 5V, OUT to Analog A0, and GND to GND."
+    },
+    {
+      "id": "obj_log_temp",
+      "description": "Select the 'Temperature' sketch and adjust the sensor temperature (using slider) above 40°C to verify the alert logic."
+    }
+  ],
+  "parameters": {
+    "targetPin": "A0",
+    "thresholdTemp": 40.0
+  }
+}

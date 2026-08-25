@@ -1,0 +1,23 @@
+{
+  "labId": "arduino_motion",
+  "labName": "Arduino PIR Motion Alarm Lab",
+  "difficulty": "Intermediate",
+  "objectives": [
+    {
+      "id": "obj_sensor_pins",
+      "description": "Connect the PIR sensor VCC to 5V, OUT to Digital Pin 2, and GND to GND."
+    },
+    {
+      "id": "obj_buzzer_pins",
+      "description": "Connect the Piezo buzzer POS to Digital Pin 8 and NEG to GND."
+    },
+    {
+      "id": "obj_trigger_alarm",
+      "description": "Select 'Motion' sketch, run it, and toggle the PIR sensor state (using click/switch) to verify the buzzer sounds."
+    }
+  ],
+  "parameters": {
+    "sensorPin": "D2",
+    "buzzerPin": "D8"
+  }
+}

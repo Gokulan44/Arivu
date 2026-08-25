@@ -1,0 +1,19 @@
+{
+  "labId": "arduino_led",
+  "labName": "Arduino LED Blink Lab",
+  "difficulty": "Beginner",
+  "objectives": [
+    {
+      "id": "obj_led_circuit",
+      "description": "Connect the LED anode to Arduino Digital Pin 13 and LED cathode to GND."
+    },
+    {
+      "id": "obj_blink_led",
+      "description": "Select the 'Blink' sketch and run it, verifying that the LED blinks at least 3 times."
+    }
+  ],
+  "parameters": {
+    "targetPin": "D13",
+    "requiredBlinks": 3
+  }
+}

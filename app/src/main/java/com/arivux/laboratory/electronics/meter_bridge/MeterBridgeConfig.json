@@ -1,0 +1,23 @@
+{
+  "labId": "meter_bridge",
+  "labName": "Meter Bridge Lab",
+  "difficulty": "Intermediate",
+  "objectives": [
+    {
+      "id": "obj_connect_meter_bridge",
+      "description": "Connect the known resistor, unknown resistor, and galvanometer to the meter bridge board."
+    },
+    {
+      "id": "obj_find_null_point",
+      "description": "Slide the jockey along the bridge wire (using slider) to find the null deflection point where galvanometer current is zero."
+    },
+    {
+      "id": "obj_calculate_resistance",
+      "description": "Calculate the unknown resistance X using the formula X = R * (100 - l) / l."
+    }
+  ],
+  "parameters": {
+    "resistanceR": 10.0,
+    "unknownResistanceX": 15.0
+  }
+}

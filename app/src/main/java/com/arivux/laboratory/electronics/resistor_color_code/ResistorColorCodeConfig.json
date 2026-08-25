@@ -1,0 +1,19 @@
+{
+  "labId": "resistor_color_code",
+  "labName": "Resistor Color Code Lab",
+  "difficulty": "Beginner",
+  "objectives": [
+    {
+      "id": "obj_identify_bands",
+      "description": "Tap the color bands on the resistor to set the colors corresponding to the target resistance: 4700Ω."
+    },
+    {
+      "id": "obj_calculate_tolerance",
+      "description": "Set the tolerance color band (fourth band) to match the target tolerance: 5% (Gold)."
+    }
+  ],
+  "parameters": {
+    "targetResistance": 4700.0,
+    "targetTolerancePercent": 5.0
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "labId": "kirchhoff_laws",
+  "labName": "Kirchhoff's Laws Lab",
+  "difficulty": "Intermediate",
+  "objectives": [
+    {
+      "id": "obj_connect_loops",
+      "description": "Connect both batteries and three resistors to form a double-loop circuit network."
+    },
+    {
+      "id": "obj_verify_kcl",
+      "description": "Measure branch currents and verify that Kirchhoff's Current Law holds at the central junction (node)."
+    },
+    {
+      "id": "obj_verify_kvl",
+      "description": "Measure voltage drops around both loops and verify that the sum of potentials equals zero."
+    }
+  ],
+  "parameters": {
+    "batteryVoltageV1": 6.0,
+    "batteryVoltageV2": 9.0,
+    "resistanceR1": 100.0,
+    "resistanceR2": 200.0,
+    "resistanceR3": 150.0
+  }
+}

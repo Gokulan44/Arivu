@@ -33,19 +33,9 @@ fun LeaderboardScreen() {
     var selectedCategory by remember { mutableStateOf("Global") }
     val scrollState = rememberScrollState()
 
-    val topUsers = listOf(
-        LeaderboardUser(2, "Arjun Patel", "Circuit Expert", 7, 2100, 11, 28, "👦"),
-        LeaderboardUser(1, "Riya Sharma", "Lab Master", 8, 2450, 15, 32, "👧"),
-        LeaderboardUser(3, "Meera Nair", "Code Creator", 7, 1980, 10, 24, "👧")
-    )
-
-    val rankingList = listOf(
-        LeaderboardUser(4, "Arun Kumar (You)", "STEM Explorer", 7, 1746, 12, 18, "👦"),
-        LeaderboardUser(5, "Kabir Singh", "Robot Builder", 6, 1520, 10, 15, "👦"),
-        LeaderboardUser(6, "Ananya Iyer", "Tech Innovator", 6, 1380, 9, 14, "👧"),
-        LeaderboardUser(7, "Vivaan Gupta", "Circuit Expert", 5, 1240, 8, 12, "👦"),
-        LeaderboardUser(8, "Sanavi Reddy", "Code Creator", 5, 1100, 7, 10, "👧")
-    )
+    val repository = remember { com.arivux.gamification.LeaderboardRepository() }
+    val topUsers = remember { repository.getTopUsers() }
+    val rankingList = remember { repository.getRankingList() }
 
     Column(
         modifier = Modifier

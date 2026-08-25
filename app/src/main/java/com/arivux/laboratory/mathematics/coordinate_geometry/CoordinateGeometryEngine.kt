@@ -19,11 +19,11 @@ class CoordinateGeometryEngine(
 
         if (pointA != null && pointB != null) {
             // Translate pixel positions relative to grid centers to standard cartesian
-            state.ax = translatePixelToCartesianX(pointA.position.x, grid)
-            state.ay = translatePixelToCartesianY(pointA.position.y, grid)
+            state.ax = translatePixelToCartesianX(pointA.position.x + pointA.width / 2f, grid)
+            state.ay = translatePixelToCartesianY(pointA.position.y + pointA.height / 2f, grid)
             
-            state.bx = translatePixelToCartesianX(pointB.position.x, grid)
-            state.by = translatePixelToCartesianY(pointB.position.y, grid)
+            state.bx = translatePixelToCartesianX(pointB.position.x + pointB.width / 2f, grid)
+            state.by = translatePixelToCartesianY(pointB.position.y + pointB.height / 2f, grid)
 
             val dx = state.bx - state.ax
             val dy = state.by - state.ay

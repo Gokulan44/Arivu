@@ -106,12 +106,44 @@ fun HomeScreen(
             }
         }
 
+        // 2.1 Daily Goal Card
+        DailyGoalCard(
+            goalXP = state.dailyGoalXP,
+            progressXP = state.dailyProgressXP
+        )
+
+        // 2.2 Continue Learning Card
+        ContinueLearning(
+            lessonTitle = state.nextIncompleteLesson,
+            lessonDesc = state.nextIncompleteLessonDesc,
+            onStartClick = {
+                // Mimics launching simulator
+                val firstNode = state.learningTrail.firstOrNull { it.title == state.nextIncompleteLesson }
+                if (firstNode != null) {
+                    onNodeSelect(firstNode)
+                }
+            }
+        )
+
         // 3. Learning path grid header
         Text(
             text = "Your Learning Path",
             fontSize = 18.sp,
             color = Color(0xFF1E293B),
             modifier = Modifier.padding(top = 8.dp)
+        )
+
+        // 3.1 Course Selector Horizontal List
+        CourseSelector(
+            courses = state.coursesList,
+            selectedCourse = state.activeCourse,
+            onCourseSelected = { viewModel.selectCourse(it) }
+        )
+
+        // 3.2 Active Unit Card
+        UnitCard(
+            unitTitle = state.activeUnitTitle,
+            progress = state.activeUnitProgress
         )
 
         // Serpentine Learning Path Composable

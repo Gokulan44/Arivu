@@ -1,0 +1,26 @@
+{
+  "labId": "potentiometer",
+  "labName": "Potentiometer Lab",
+  "difficulty": "Advanced",
+  "objectives": [
+    {
+      "id": "obj_connect_potentiometer",
+      "description": "Connect the primary driver loop and secondary loop with the cell, galvanometer, and jockey to the potentiometer board."
+    },
+    {
+      "id": "obj_find_balancing_length",
+      "description": "Slide the jockey along the potentiometer wire (using slider) to find the null deflection point where galvanometer current is zero."
+    },
+    {
+      "id": "obj_verify_emf",
+      "description": "Verify the cell EMF relation with the balanced wire length (target: 225 cm)."
+    }
+  ],
+  "parameters": {
+    "primaryEMF": 4.0,
+    "secondaryEMF": 1.5,
+    "wireTotalLengthCm": 400.0,
+    "rheostatResistance": 10.0,
+    "wireResistancePerCm": 0.05
+  }
+}

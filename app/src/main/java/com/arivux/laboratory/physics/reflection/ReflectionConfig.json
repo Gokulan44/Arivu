@@ -1,0 +1,18 @@
+{
+  "labId": "reflection",
+  "labName": "Reflection Lab",
+  "difficulty": "Beginner",
+  "objectives": [
+    {
+      "id": "obj_measure_angles",
+      "description": "Adjust the laser source angle using the slider to cast a light ray onto the plane mirror."
+    },
+    {
+      "id": "obj_verify_reflection_law",
+      "description": "Verify the Law of Reflection by checking that the angle of incidence equals the angle of reflection."
+    }
+  ],
+  "parameters": {
+    "defaultLaserAngle": 30.0
+  }
+}

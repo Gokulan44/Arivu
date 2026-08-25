@@ -1,0 +1,23 @@
+{
+  "labId": "concave_lens",
+  "labName": "Concave Lens Lab",
+  "difficulty": "Advanced",
+  "objectives": [
+    {
+      "id": "obj_combined_focus",
+      "description": "Arrange the light source, auxiliary convex lens, concave lens, and screen on the bench."
+    },
+    {
+      "id": "obj_find_concave_focus",
+      "description": "Adjust the positions of the concave lens and screen to locate the shifted focus of the combined virtual object system."
+    },
+    {
+      "id": "obj_calculate_concave_f",
+      "description": "Calculate the negative focal length of the concave lens using the virtual object focus formula (target f = -15 cm)."
+    }
+  ],
+  "parameters": {
+    "focalLengthF": -15.0,
+    "convexFocalLength": 20.0
+  }
+}

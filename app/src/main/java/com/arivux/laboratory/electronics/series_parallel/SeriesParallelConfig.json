@@ -1,0 +1,19 @@
+{
+  "labId": "series_parallel",
+  "labName": "Series & Parallel Resistors Lab",
+  "difficulty": "Beginner",
+  "objectives": [
+    {
+      "id": "obj_series_eq",
+      "description": "Connect the 100Ω and 200Ω resistors in series to the ohmmeter and measure the equivalent resistance."
+    },
+    {
+      "id": "obj_parallel_eq",
+      "description": "Connect the 100Ω and 200Ω resistors in parallel to the ohmmeter and measure the equivalent resistance."
+    }
+  ],
+  "parameters": {
+    "resistanceR1": 100.0,
+    "resistanceR2": 200.0
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "boardName": "Arduino Uno R3",
+  "mcu": "ATmega328P",
+  "operatingVoltage": 5.0,
+  "digitalPinsCount": 14,
+  "analogPinsCount": 6,
+  "clockSpeedMhz": 16.0
+}

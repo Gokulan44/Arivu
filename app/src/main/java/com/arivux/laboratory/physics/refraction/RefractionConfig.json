@@ -1,0 +1,19 @@
+{
+  "labId": "refraction",
+  "labName": "Refraction Lab",
+  "difficulty": "Intermediate",
+  "objectives": [
+    {
+      "id": "obj_project_ray",
+      "description": "Adjust the laser source angle (using slider) to project a ray of light through the glass slab."
+    },
+    {
+      "id": "obj_verify_refraction_law",
+      "description": "Verify Snell's Law by checking that sin(i) / sin(r) = n (refractive index of glass slab = 1.5)."
+    }
+  ],
+  "parameters": {
+    "refractiveIndexN": 1.5,
+    "defaultLaserAngle": 30.0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "labId": "wheatstone_bridge",
+  "labName": "Wheatstone Bridge Lab",
+  "difficulty": "Intermediate",
+  "objectives": [
+    {
+      "id": "obj_bridge_circuit",
+      "description": "Connect P, Q, R, S in a bridge with the galvanometer placed across the central nodes."
+    },
+    {
+      "id": "obj_balance_bridge",
+      "description": "Adjust the variable resistor (R) using the slider to achieve a balanced condition where galvanometer current is zero."
+    },
+    {
+      "id": "obj_calculate_unknown",
+      "description": "Verify the relation P/Q = R/S to compute the unknown resistance S."
+    }
+  ],
+  "parameters": {
+    "resistanceP": 100.0,
+    "resistanceQ": 200.0,
+    "resistanceS": 300.0
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "labId": "multimeter_resistance",
+  "labName": "Multimeter Resistance Lab",
+  "difficulty": "Beginner",
+  "objectives": [
+    {
+      "id": "obj_connect_probes",
+      "description": "Connect the multimeter's red and black probes to the resistor terminals."
+    },
+    {
+      "id": "obj_select_scale",
+      "description": "Adjust the dial (using slider) to the optimal scale (2k) to measure the 1500Ω resistor value."
+    }
+  ],
+  "parameters": {
+    "resistanceR": 1500.0
+  }
+}
