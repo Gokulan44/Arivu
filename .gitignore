@@ -1,6 +1,23 @@
-.gradle/ 
-build/ 
-**/build/ 
-.idea/ 
-*.iml 
-local.properties 
+# Gradle
+.gradle/
+gradle-*/
+*.zip
+
+# Android
+local.properties
+
+# Build
+build/
+**/build/
+
+# IDE
+.idea/
+*.iml
+
+# Kotlin
+.kotlin/
+
+# Generated
+captures/
+.externalNativeBuild/
+.cxx/
