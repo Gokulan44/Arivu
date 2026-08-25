@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingTop="6dp"
+    android:paddingBottom="6dp">
+
+    <TextView
+        android:id="@+id/tv_core_label"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:text="C0"
+        android:textColor="@color/soc_muted"
+        android:textSize="13sp" />
+
+    <ProgressBar
+        android:id="@+id/pb_core"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="0dp"
+        android:layout_height="8dp"
+        android:layout_weight="1"
+        android:max="100"
+        android:progress="0"
+        android:progressBackgroundTint="@color/soc_panel2"
+        android:progressTint="@color/soc_cyan" />
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android 12+ data extraction rules: never back up the agent database or
+     the encrypted credential prefs; allow the rest. -->
+<data-extraction-rules>
+    <cloud-backup>
+        <include domain="sharedpref" path="." />
+        <exclude domain="database" path="soc_agent.db" />
+        <exclude domain="sharedpref" path="secure_prefs.xml" />
+    </cloud-backup>
+    <device-transfer>
+        <include domain="sharedpref" path="." />
+        <exclude domain="database" path="soc_agent.db" />
+        <exclude domain="sharedpref" path="secure_prefs.xml" />
+    </device-transfer>
+</data-extraction-rules>

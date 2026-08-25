@@ -1,0 +1,235 @@
+<resources>
+    <!-- App identity -->
+    <string name="app_name">System Monitor</string>
+
+    <!-- Login / onboarding -->
+    <string name="login_title">System Monitor</string>
+    <string name="login_subtitle">Endpoint monitoring &amp; threat reporting</string>
+    <string name="login_server_url">Server URL</string>
+    <string name="login_server_url_hint">http://192.168.1.10:3000</string>
+    <string name="login_api_key">API key</string>
+    <string name="login_api_key_hint">Paste your agent API key</string>
+    <string name="login_connect">Connect</string>
+    <string name="login_connecting">Connecting to SOC platform…</string>
+    <string name="login_success">Connected successfully</string>
+    <string name="login_error">Could not reach the SOC server. Check the URL, the API key and your network connection.</string>
+    <string name="login_invalid_url">Please enter a valid server URL</string>
+    <string name="login_missing_key">Please enter your API key</string>
+
+    <!-- Bottom navigation -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_device">Device</string>
+    <string name="nav_security">Security</string>
+    <string name="nav_applock">App Lock</string>
+    <string name="nav_appusage">App Usage</string>
+    <string name="nav_filecenter">File Center</string>
+    <string name="nav_network">Network</string>
+    <string name="nav_privacy">Privacy</string>
+    <string name="nav_notification">Notifications</string>
+    <string name="nav_reports">Reports</string>
+    <string name="nav_settings">Settings</string>
+    <string name="accessibility_service_description">Detects when locked apps are opened and prompts for authentication before granting access.</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">Security Dashboard</string>
+    <string name="dashboard_device_status">Device status</string>
+    <string name="stat_cpu">CPU load</string>
+    <string name="stat_memory">Memory</string>
+    <string name="stat_storage">Storage</string>
+    <string name="stat_battery">Battery</string>
+    <string name="stat_threats">Threats</string>
+    <string name="stat_score">Security score</string>
+    <string name="stat_grade">Grade</string>
+    <string name="stat_percent_format">%1$d%%</string>
+    <string name="stat_cpu_cores">%1$d cores</string>
+    <string name="status_online">Online</string>
+    <string name="status_offline">Offline</string>
+    <string name="status_unknown">Unknown</string>
+    <string name="status_charging">Charging</string>
+    <string name="status_discharging">Discharging</string>
+
+    <!-- Scan -->
+    <string name="scan_quick">Quick scan</string>
+    <string name="scan_full">Full scan</string>
+    <string name="scan_apk">APK analysis</string>
+    <string name="scan_start">Start scan</string>
+    <string name="scan_running">Scan in progress…</string>
+    <string name="scan_complete">Scan complete</string>
+    <string name="scan_failed">Scan failed</string>
+    <string name="scan_items_scanned">Items scanned</string>
+    <string name="scan_threats_found">Threats found</string>
+    <string name="scan_grade">Score grade</string>
+    <string name="scan_history">Scan history</string>
+    <string name="scan_recent">Recent scans</string>
+    <string name="scan_no_results">No detections in this scan</string>
+
+    <!-- Monitoring -->
+    <string name="monitor_cpu">CPU monitor</string>
+    <string name="monitor_memory">Memory monitor</string>
+    <string name="monitor_storage">Storage monitor</string>
+    <string name="monitor_network">Network monitor</string>
+    <string name="monitor_apps">Installed apps</string>
+    <string name="monitor_phishing">Phishing checks</string>
+
+    <!-- Device info -->
+    <string name="device_info_title">Device information</string>
+    <string name="device_manufacturer">Manufacturer</string>
+    <string name="device_model">Model</string>
+    <string name="device_android_version">Android version</string>
+    <string name="device_kernel">Kernel</string>
+    <string name="device_patch_level">Security patch</string>
+    <string name="device_os_build">Build</string>
+    <string name="device_uptime">Uptime</string>
+    <string name="device_agent_id">Agent ID</string>
+    <string name="device_storage_mount">%1$s (%2$s)</string>
+
+    <!-- Security center -->
+    <string name="security_title">Security center</string>
+    <string name="security_threats">Threats</string>
+    <string name="security_alerts">Alerts</string>
+    <string name="security_policies">Policies</string>
+    <string name="security_blocklist">Blocklist</string>
+    <string name="security_iocs">Indicators of compromise</string>
+    <string name="security_apps_risk">App risk</string>
+    <string name="security_no_threats">No threats detected</string>
+    <string name="security_no_alerts">No alerts</string>
+    <string name="security_no_policies">No policies assigned</string>
+    <string name="security_policy_count">%1$d active policies</string>
+    <string name="security_ioc_count">%1$d indicators</string>
+
+    <!-- Statuses / verdicts -->
+    <string name="status_safe">Safe</string>
+    <string name="status_medium">Medium risk</string>
+    <string name="status_high">High risk</string>
+    <string name="verdict_clean">Clean</string>
+    <string name="verdict_suspicious">Suspicious</string>
+    <string name="verdict_malicious">Malicious</string>
+    <string name="severity_low">Low</string>
+    <string name="severity_medium">Medium</string>
+    <string name="severity_high">High</string>
+    <string name="severity_critical">Critical</string>
+
+    <!-- PIN lock -->
+    <string name="pin_title">Unlock SOC Agent</string>
+    <string name="pin_setup">Set a 4–6 digit PIN</string>
+    <string name="pin_confirm">Confirm your PIN</string>
+    <string name="pin_mismatch">PINs do not match</string>
+    <string name="pin_wrong">Wrong PIN, try again</string>
+    <string name="pin_locked">Too many attempts. Try again later.</string>
+    <string name="pin_biometric">Use biometric</string>
+
+    <!-- App Lock module -->
+    <string name="applock_notification_title">App Lock is protecting your apps</string>
+    <string name="applock_notification_text">Watching for locked apps in the foreground</string>
+    <string name="applock_channel_name">App Lock watcher</string>
+    <string name="applock_channel_desc">Foreground service notification while the App Lock watcher is running</string>
+
+    <!-- Auto-lock settings -->
+    <string-array name="auto_lock_modes">
+        <item>Immediate (re-lock on exit)</item>
+        <item>On screen off</item>
+        <item>After timeout</item>
+    </string-array>
+    <string-array name="auto_lock_mode_values">
+        <item>immediate</item>
+        <item>screen_off</item>
+        <item>timeout</item>
+    </string-array>
+    <string-array name="auto_lock_timeouts">
+        <item>15 seconds</item>
+        <item>30 seconds</item>
+        <item>1 minute</item>
+        <item>5 minutes</item>
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+    </string-array>
+    <string-array name="auto_lock_timeout_values">
+        <item>15000</item>
+        <item>30000</item>
+        <item>60000</item>
+        <item>300000</item>
+        <item>900000</item>
+        <item>1800000</item>
+    </string-array>
+
+    <string-array name="lock_delays">
+        <item>Immediate</item>
+        <item>1 second</item>
+        <item>2 seconds</item>
+        <item>5 seconds</item>
+        <item>10 seconds</item>
+        <item>30 seconds</item>
+        <item>1 minute</item>
+    </string-array>
+    <string-array name="lock_delay_values">
+        <item>0</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>5000</item>
+        <item>10000</item>
+        <item>30000</item>
+        <item>60000</item>
+    </string-array>
+
+    <!-- App Usage -->
+    <string name="app_usage_notification_title">App Usage is tracking your apps</string>
+    <string name="app_usage_notification_text">Monitoring foreground app usage</string>
+    <string name="app_usage_channel_name">App Usage monitor</string>
+    <string name="app_usage_channel_desc">Foreground service notification while the App Usage monitor is running</string>
+
+    <!-- Common -->
+    <string name="common_ok">OK</string>
+    <string name="common_cancel">Cancel</string>
+    <string name="common_retry">Retry</string>
+    <string name="common_refresh">Refresh</string>
+    <string name="common_loading">Loading…</string>
+    <string name="common_error">Something went wrong</string>
+    <string name="common_empty">No data yet</string>
+    <string name="common_last_sync">Last sync</string>
+    <string name="common_never">Never</string>
+    <string name="common_settings">Settings</string>
+    <string name="common_logout">Log out</string>
+    <string name="common_yes">Yes</string>
+    <string name="common_no">No</string>
+    <string name="common_agent_version">Agent v%1$s</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_name">Security agent</string>
+    <string name="notification_channel_desc">Background sync and threat alerts</string>
+    <string name="notification_sync_title">SOC Agent syncing</string>
+    <string name="notification_sync_text">Sending telemetry to the SOC platform</string>
+    <string name="notification_alert_title">Security alert</string>
+    <string name="notification_alert_text">A potential threat was detected on this device</string>
+
+    <!-- Settings section -->
+    <string name="settings_title_profile">User Profile</string>
+    <string name="settings_subtitle_profile">Edit your profile</string>
+    <string name="settings_title_security">Security Settings</string>
+    <string name="settings_subtitle_security">Manage authentication</string>
+    <string name="settings_title_devices">Devices</string>
+    <string name="settings_subtitle_devices">Manage devices</string>
+    <string name="settings_title_privacy">Privacy</string>
+    <string name="settings_subtitle_privacy">Privacy preferences</string>
+    <string name="settings_title_notifications">Notifications</string>
+    <string name="settings_subtitle_notifications">Notification settings</string>
+    <string name="settings_title_preferences">Preferences</string>
+    <string name="settings_subtitle_preferences">App preferences</string>
+    <string name="settings_title_history">Activity History</string>
+    <string name="settings_subtitle_history">View activity logs</string>
+    <string name="settings_title_backup">Backup and Sync</string>
+    <string name="settings_subtitle_backup">Backup and restore</string>
+    <string name="settings_title_help">Help and Support</string>
+    <string name="settings_subtitle_help">FAQ and support</string>
+    <string name="settings_title_about">About</string>
+    <string name="settings_subtitle_about">Version 1.0.0</string>
+    <string name="settings_title_logout">Log Out</string>
+    <string name="settings_subtitle_logout">Sign out</string>
+    <string name="settings_about_message">%1$s\nVersion %2$s\n\nSOC Security Agent provides real-time endpoint monitoring and threat detection for your Android device.</string>
+    <string name="settings_logout_message">Are you sure you want to sign out? You will need to re-enter your credentials to reconnect.</string>
+    <string name="settings_logout_confirm">Sign Out</string>
+    <string name="settings_logout_toast">Signed out successfully</string>
+
+    <!-- Permissions -->
+    <string name="permission_rationale_title">Permissions required</string>
+    <string name="permission_notification_rationale">Notifications keep you informed when the agent detects threats.</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Dev/staging builds talk to an HTTP SOC server (e.g. http://10.0.2.2:3000),
+     so cleartext traffic is permitted for all hosts. Tighten before production. -->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>

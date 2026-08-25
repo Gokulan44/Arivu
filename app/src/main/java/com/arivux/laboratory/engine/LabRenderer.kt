@@ -8,6 +8,7 @@ import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.graphics.nativeCanvas
 import android.graphics.Paint
 import com.arivux.laboratory.physics.Vector2D
+import com.arivux.laboratory.interaction.Wire
 
 class LabRenderer {
 

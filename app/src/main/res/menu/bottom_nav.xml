@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_dashboard"
+        android:icon="@drawable/ic_nav_home"
+        android:title="@string/nav_dashboard" />
+
+    <item
+        android:id="@+id/nav_device"
+        android:icon="@drawable/ic_nav_device"
+        android:title="@string/nav_device" />
+
+    <item
+        android:id="@+id/nav_security"
+        android:icon="@drawable/ic_nav_security"
+        android:title="@string/nav_security" />
+
+    <item
+        android:id="@+id/nav_applock"
+        android:icon="@drawable/ic_nav_applock"
+        android:title="@string/nav_applock" />
+
+    <item
+        android:id="@+id/nav_appusage"
+        android:icon="@drawable/ic_nav_appusage"
+        android:title="@string/nav_appusage" />
+
+    <item
+        android:id="@+id/nav_filecenter"
+        android:icon="@drawable/ic_nav_filecenter"
+        android:title="@string/nav_filecenter" />
+
+    <item
+        android:id="@+id/nav_network"
+        android:icon="@drawable/ic_nav_network"
+        android:title="@string/nav_network" />
+
+    <item
+        android:id="@+id/nav_privacy"
+        android:icon="@drawable/ic_nav_privacy"
+        android:title="@string/nav_privacy" />
+
+    <item
+        android:id="@+id/nav_notification"
+        android:icon="@drawable/ic_nav_notification"
+        android:title="@string/nav_notification" />
+
+    <item
+        android:id="@+id/nav_reports"
+        android:icon="@drawable/ic_nav_reports"
+        android:title="@string/nav_reports" />
+
+    <item
+        android:id="@+id/nav_settings"
+        android:icon="@drawable/ic_nav_settings"
+        android:title="@string/nav_settings" />
+
+</menu>
