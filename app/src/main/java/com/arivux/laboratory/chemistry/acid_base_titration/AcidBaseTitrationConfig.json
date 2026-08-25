@@ -1,0 +1,25 @@
+{
+  "labId": "acid_base_titration",
+  "labName": "Acid-Base Titration Lab",
+  "difficulty": "Intermediate",
+  "objectives": [
+    {
+      "id": "obj_indicator",
+      "description": "Add 2-3 drops of Phenolphthalein indicator to the hydrochloric acid beaker."
+    },
+    {
+      "id": "obj_neutralize",
+      "description": "Slowly open the burette stopcock to drip NaOH until the solution turns pale pink, indicating the equivalence point."
+    },
+    {
+      "id": "obj_molarity",
+      "description": "Calculate the unknown molarity of HCl using the volume of NaOH added."
+    }
+  ],
+  "parameters": {
+    "hclVolumeMl": 20.0,
+    "naohMolarity": 0.1,
+    "hclMolarityNominal": 0.1,
+    "equivalencePointMl": 20.0
+  }
+}

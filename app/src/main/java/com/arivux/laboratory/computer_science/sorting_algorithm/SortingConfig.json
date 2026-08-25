@@ -1,0 +1,23 @@
+{
+  "labId": "sorting_algorithm",
+  "labName": "Sorting Algorithm Lab",
+  "difficulty": "Intermediate",
+  "objectives": [
+    {
+      "id": "obj_load_array",
+      "description": "Initialize a random unsorted array of size 6."
+    },
+    {
+      "id": "obj_step_sorting",
+      "description": "Click the step button to witness index comparison and swappings."
+    },
+    {
+      "id": "obj_complete_sort",
+      "description": "Complete sorting until the entire array is arranged in ascending order."
+    }
+  ],
+  "parameters": {
+    "arraySize": 6,
+    "maxElementValue": 100
+  }
+}

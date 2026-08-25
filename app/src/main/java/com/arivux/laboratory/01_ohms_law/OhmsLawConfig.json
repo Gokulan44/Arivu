@@ -1,0 +1,30 @@
+{
+  "labId": "01_ohms_law",
+  "labName": "Ohm's Law Experiment",
+  "difficulty": "Beginner",
+  "objectives": [
+    {
+      "id": "obj_circuit_connection",
+      "description": "Connect the battery, resistor, ammeter, and switch in a series loop, and connect the voltmeter across the resistor."
+    },
+    {
+      "id": "obj_voltage_sweep",
+      "description": "Increase voltage in 2V increments from 2V to 10V and record current values."
+    },
+    {
+      "id": "obj_calculate_resistance",
+      "description": "Calculate resistance using R = V / I and compare it with the resistor's nominal rating."
+    }
+  ],
+  "parameters": {
+    "nominalResistorValue": 100.0,
+    "resistorPowerRating": 2.0,
+    "maxBatteryVoltage": 15.0,
+    "voltageIncrement": 1.0
+  },
+  "alerts": {
+    "shortCircuit": "Warning: Short circuit detected! Connect a resistor in series to limit the current flow.",
+    "resistorBurned": "Danger: Resistor power exceeds 2 Watts! The resistor has burned out due to excessive heat.",
+    "ammeterParallel": "Warning: Ammeter is connected in parallel! This can cause high current spikes. Connect it in series."
+  }
+}

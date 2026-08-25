@@ -1,0 +1,27 @@
+{
+  "labId": "microscope_lab",
+  "labName": "Microscope Exploration Lab",
+  "difficulty": "Beginner",
+  "objectives": [
+    {
+      "id": "obj_place_slide",
+      "description": "Drag and place the specimen slide (Onion Cell) onto the microscope stage."
+    },
+    {
+      "id": "obj_focus_coarse",
+      "description": "Adjust the coarse focus knob to locate the specimen outline."
+    },
+    {
+      "id": "obj_focus_fine",
+      "description": "Adjust the fine focus knob to bring the cell nucleus into sharp focus."
+    }
+  ],
+  "parameters": {
+    "lenses": [
+      { "name": "Low Power", "multiplier": 4.0 },
+      { "name": "Medium Power", "multiplier": 10.0 },
+      { "name": "High Power", "multiplier": 40.0 }
+    ],
+    "optimalFocus": 50.0
+  }
+}

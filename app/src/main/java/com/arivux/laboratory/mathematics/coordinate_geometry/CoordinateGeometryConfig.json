@@ -1,0 +1,25 @@
+{
+  "labId": "coordinate_geometry",
+  "labName": "Coordinate Geometry Lab",
+  "difficulty": "Beginner",
+  "objectives": [
+    {
+      "id": "obj_plot_points",
+      "description": "Drag and place Point A at (2, 3) and Point B at (6, 6) on the cartesian grid."
+    },
+    {
+      "id": "obj_calculate_distance",
+      "description": "Verify that the calculated distance matches the hypotenuse formula."
+    },
+    {
+      "id": "obj_verify_slope",
+      "description": "Confirm the line slope equals 0.75."
+    }
+  ],
+  "parameters": {
+    "targetAx": 2.0,
+    "targetAy": 3.0,
+    "targetBx": 6.0,
+    "targetBy": 6.0
+  }
+}

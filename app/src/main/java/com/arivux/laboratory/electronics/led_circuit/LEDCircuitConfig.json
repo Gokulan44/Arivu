@@ -1,0 +1,23 @@
+{
+  "labId": "led_circuit_lab",
+  "labName": "LED Circuit Exploration Lab",
+  "difficulty": "Beginner",
+  "objectives": [
+    {
+      "id": "obj_connect_led",
+      "description": "Connect a battery, resistor, and LED in a series loop."
+    },
+    {
+      "id": "obj_observe_glow",
+      "description": "Close the switch to verify that the LED emits light."
+    },
+    {
+      "id": "obj_burnout_prevention",
+      "description": "Ensure the series resistance is high enough to keep current below 40mA to prevent LED burnout."
+    }
+  ],
+  "parameters": {
+    "ledForwardVoltage": 1.8,
+    "maxSafeCurrent": 0.040
+  }
+}
